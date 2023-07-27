@@ -1,0 +1,27 @@
+sa = input()
+sb = input()
+sc = input()
+sd = input()
+a = list(map(int, input().split()))
+b = list(map(int, input().split()))
+c = list(map(int, input().split()))
+fa = open(sa, "w+")
+fb = open(sb, "w+")
+fc = open(sc, "w+")
+fd = open(sd, "w+")
+for q in a:
+    fa.write(str(q))
+    fa.write(" ")
+for h in b:
+    fb.write(str(h))
+    fb.write(" ")
+for z in a:
+    fa.write(str(z))
+    fa.write(" ")
+for m in range(len(a)):
+    fd.write(str(a[m]))
+    fd.write(" ")
+    fd.write(str(b[m]))
+    fd.write(" ")
+    fd.write(str(c[m]))
+    fd.write(" ")

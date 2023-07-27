@@ -1,0 +1,5 @@
+s = input()
+s0 = input()
+s = s.rsplit(s0, 1)
+s = ''.join(s)
+print(s)

@@ -1,0 +1,7 @@
+a,b=map(int,input().split())
+x,y=map(int,input().split())
+p,q=map(int,input().split())
+print(3)
+print(a+x-p,b+y-q)
+print(a-x+p,b-y+q)
+print(x-a+p,y-b+q)
