@@ -1,8 +1,10 @@
-a,b = map(int,input().split());c="a"
-for i in range(a):
-    z = set(input())
-    if len(z)>1 or c==z :
+n,m = map(int,input().split())
+p = 0
+for i in range(n):
+    a = list(input())
+    b = list(set(a))
+    if len(b) > 1 or p == b[0]:
         print("NO")
         exit()
-    c=z
-print("YES")    
+    p = b[0]
+print("YES")
