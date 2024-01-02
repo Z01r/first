@@ -1,6 +1,0 @@
-p,v,t=map(int,input().split())
-mx=max(p,v,t)
-mn=min(p,v,t)
-sr=(p+v+t)-(mn+mx)
-kol=abs(sr-mn)+abs(sr-mx)
-print(kol)

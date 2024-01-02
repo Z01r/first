@@ -1,10 +1,25 @@
+import random
 import turtle
+turtle.pen('turtle')
 
-n = 0
-k = ['Мама', 'Ты', 'Самая', 'Лучшая']
-turtle.speed(1)
-h = ['red', 'green']
-for i in range(4):
-    turtle.bgcolor(h[i % 2])
-    turtle.write(k[i])
-
+turtle.speed(100)
+a = ['blue','cyan','deepskyblue','aqua','steelblue']
+while 1 != 2:
+    turtle.bgcolor(a[random.randrange(0,5)])
+    turtle.forward(200)
+    turtle.right(180)
+    turtle.forward(200)
+    turtle.left(90)
+    turtle.forward(200)
+    turtle.right(180)
+    turtle.forward(200)
+    turtle.left(90)
+    turtle.forward(200)
+    turtle.right(180)
+    turtle.forward(200)
+    turtle.left(90)
+    turtle.forward(200)
+    turtle.right(180)
+    turtle.forward(200)
+    turtle.right(45)
+    turtle.circle(random.randrange(0,200))

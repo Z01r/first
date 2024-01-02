@@ -38,6 +38,8 @@ def sled(s):
     elif d == 31:
         d = 1
         m += 1
+    elif m == 2 and d < 27:
+        d += 1
     d = str(d)
     m = str(m)
     y = str(y)
